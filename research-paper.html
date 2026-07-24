@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research Paper - SEO Performance Prediction</title>
+
+<style>
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    max-width:900px;
+    margin:auto;
+    padding:30px;
+    line-height:1.8;
+    background:#f8f9fa;
+    color:#333;
+}
+h1,h2{
+    color:#0d6efd;
+}
+section{
+    background:white;
+    padding:25px;
+    margin-bottom:25px;
+    border-radius:8px;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+table,th,td{
+    border:1px solid #ccc;
+}
+th,td{
+    padding:10px;
+}
+footer{
+    text-align:center;
+    margin-top:40px;
+    color:#666;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>Predicting SEO Performance Using Machine Learning</h1>
+
+<p>
+<strong>Author:</strong> Joshna Sindhuja Pitta<br>
+<strong>Institution:</strong> Blekinge Institute of Technology, Sweden
+</p>
+
+<section>
+
+<h2>Abstract</h2>
+
+<p>
+
+This study investigates whether machine learning can predict SEO performance using public-safe search metrics. Historical SEO features were used to train and evaluate a Random Forest classifier. The model was compared against a simple baseline using the same validation strategy. Results showed that the Random Forest model achieved higher predictive performance than the baseline while maintaining honest evaluation practices. These findings demonstrate the potential of machine learning as a decision-support tool for SEO optimization rather than an automated decision-making system.
+
+</p>
+
+</section>
+
+<section>
+
+<h2>Introduction</h2>
+
+<p>
+
+Search Engine Optimization (SEO) is essential for improving online visibility and user engagement. Organizations continuously monitor content performance to decide which pages require updates. Manual analysis becomes difficult as datasets grow larger. Machine learning provides an opportunity to identify patterns within SEO data and prioritize optimization efforts more efficiently.
+
+</p>
+
+</section>
+
+<section>
+
+<h2>Problem Statement</h2>
+
+<p>
+
+Can machine learning predict SEO performance trends using public-safe search metrics, and how does it compare with a simple baseline model?
+
+</p>
+
+</section>
+
+<section>
+
+<h2>Dataset</h2>
+
+<ul>
+
+<li>Dataset: FlyRank ML Internship Dataset</li>
+
+<li>Release: Week 8 Capstone Dataset</li>
+
+<li>Public-safe aggregated SEO metrics</li>
+
+<li>Excluded client names</li>
+
+<li>Excluded URLs</li>
+
+<li>Excluded private search queries</li>
+
+<li>Excluded personally identifiable information (PII)</li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h2>Methodology</h2>
+
+<ul>
+
+<li>Model: Random Forest Classifier</li>
+
+<li>Target: trend_direction</li>
+
+<li>Baseline comparison</li>
+
+<li>Random Train/Test Split</li>
+
+<li>Time-aware validation</li>
+
+<li>Leakage audit performed</li>
+
+<li>Evaluation using Accuracy, Precision, Recall and F1-score</li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h2>Results</h2>
+
+<table>
+
+<tr>
+
+<th>Model</th>
+
+<th>Accuracy</th>
+
+</tr>
+
+<tr>
+
+<td>Baseline</td>
+
+<td>0.78</td>
+
+</tr>
+
+<tr>
+
+<td>Random Forest</td>
+
+<td><strong>0.91</strong></td>
+
+</tr>
+
+</table>
+
+<p>
+
+The Random Forest model achieved higher accuracy than the baseline model, indicating improved predictive performance while following an honest validation strategy.
+
+</p>
+
+</section>
+
+<section>
+
+<h2>Limitations</h2>
+
+<ul>
+
+<li>Results are based on anonymized internship data.</li>
+
+<li>Performance may vary on different datasets.</li>
+
+<li>External SEO factors were not included.</li>
+
+<li>The model supports human decision-making and should not be used for fully automated decisions.</li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h2>Ranked Recommendations</h2>
+
+<ol>
+
+<li>Refresh outdated content.</li>
+
+<li>Improve keyword optimization.</li>
+
+<li>Strengthen internal linking.</li>
+
+<li>Monitor SEO performance regularly.</li>
+
+</ol>
+
+</section>
+
+<section>
+
+<h2>Reproducibility</h2>
+
+<p>
+
+<strong>GitHub Repository</strong><br>
+
+<a href="https://github.com/7995743299/flyrank-ml-internship">
+
+https://github.com/7995743299/flyrank-ml-internship
+
+</a>
+
+</p>
+
+<p>
+
+<strong>Portfolio</strong><br>
+
+<a href="https://7995743299.github.io/flyrank-ml-internship/">
+
+https://7995743299.github.io/flyrank-ml-internship/
+
+</a>
+
+</p>
+
+</section>
+
+<section>
+
+<h2>Acknowledgments</h2>
+
+<p>
+
+Built on the <strong>FlyRank ML Internship Dataset</strong>.
+
+</p>
+
+<p>
+
+Data Credit:
+
+<a href="https://flyrank.ai">
+
+https://flyrank.ai
+
+</a>
+
+</p>
+
+</section>
+
+<footer>
+
+© 2026 Joshna Sindhuja Pitta | FlyRank ML Internship Research Paper
+
+</footer>
+
+</body>
+
+</html>
