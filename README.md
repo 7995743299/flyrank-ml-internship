@@ -1,87 +1,127 @@
- Study Coach AI
+# Study Coach AI
 
- Overview
-Study Coach AI is an AI-powered learning assistant developed during the FlyRank AI Fluency Internship. It helps students create structured study plans, answer learning-related questions, and provide guidance for effective learning.
+## Overview
 
- Features
-- Personalized study plans
-- Learning guidance
-- Question answering
-- AI-powered recommendations
-- Easy-to-use interface
+Study Coach AI is an AI-powered learning assistant developed during the FlyRank AI Fluency Internship. The project helps students generate structured study plans, answer learning-related questions, and provide guidance for effective learning through conversational AI.
 
- Technologies Used
+---
+
+## Features
+
+- Generate personalized study plans
+- Answer learning-related questions
+- Provide AI-powered learning recommendations
+- Help students organize their learning journey
+- Easy-to-use conversational interface
+
+---
+
+## Technologies Used
+
 - Python
-- OpenAI API / LLM
+- Jupyter Notebook
 - GitHub
 - Markdown
 
- Project Structure
+---
+
+## Project Structure
+
 ```
 .
-├── README.md
-├── src/
+├── .github/
+├── data/
+├── docs/
 ├── notebooks/
-├── requirements.txt
-└── assets/
+├── outputs/
+├── scripts/
+├── skills/
+├── submission/
+├── work/
+├── README.md
+└── requirements.txt
 ```
 
- Installation
+---
 
-Clone the repository.
+## Installation
+
+Clone the repository:
 
 ```bash
 git clone https://github.com/7995743299/flyrank-ml-internship.git
 ```
 
-Install dependencies.
+Navigate to the project folder:
+
+```bash
+cd flyrank-ml-internship
+```
+
+Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the application.
+---
 
- Usage
+## Usage
 
-Example prompt:
+Example Prompt:
 
+```
 Create a one-week Machine Learning study plan.
+```
 
-Example output:
+Example Output:
 
-Day 1 - Python
-Day 2 - NumPy
-Day 3 - Pandas
-Day 4 - Machine Learning Basics
-Day 5 - Model Evaluation
-Day 6 - Mini Project
-Day 7 - Revision
+```
+Day 1 – Python Basics
+Day 2 – NumPy
+Day 3 – Pandas
+Day 4 – Machine Learning Fundamentals
+Day 5 – Model Evaluation
+Day 6 – Mini Project
+Day 7 – Revision
+```
 
+---
 
- Design Decision
+## Design Decision
 
-The assistant was designed to generate structured learning plans instead of short answers so learners can follow a step-by-step roadmap.
+The assistant was designed to generate structured learning plans rather than short responses so that learners can follow a step-by-step roadmap.
 
- Evaluation
+---
 
-The project was evaluated by testing different prompts and improving response quality through prompt refinement.
+## Evaluation
 
- Limitations
+The project was evaluated by testing multiple prompts and refining responses to improve clarity, consistency, and usefulness.
 
-- Depends on user prompts.
-- Responses may not always be perfectly accurate.
-- Should be used as a learning assistant.
+---
 
- Future Improvements
+## Limitations
 
-- PDF export
+- Response quality depends on user prompts.
+- AI-generated responses may occasionally contain inaccuracies.
+- The assistant should be used as a learning aid rather than a replacement for professional academic guidance.
+
+---
+
+## Future Improvements
+
+- Export study plans as PDF
+- Add multilingual support
 - Progress tracking
-- Multiple language support
 - Calendar integration
+- Reminder notifications
 
- Author
+---
 
-Joshna Sindhuja Pitta
+## Author
+
+**Joshna Sindhuja Pitta**
 
 FlyRank AI Fluency Internship
+
+Blekinge Institute of Technology, Sweden
