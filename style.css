@@ -58,3 +58,32 @@ text-align:center;
 padding:20px;
 margin-top:40px;
 }
+form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    max-width:600px;
+    margin:auto;
+}
+
+form input,
+form textarea{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:16px;
+}
+
+form button{
+    padding:12px;
+    background:#0d6efd;
+    color:white;
+    border:none;
+    border-radius:6px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+form button:hover{
+    background:#0b5ed7;
+}
